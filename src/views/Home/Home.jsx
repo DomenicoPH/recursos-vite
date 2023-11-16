@@ -1,11 +1,11 @@
 import React from 'react'
 
-const homeContainer = 'bg-slate-800 min-h-[100vh]'
+const homeContainer = 'flex items-center justify-center font-pop text-white bg-slate-800 min-h-[100vh]'
 
 const Home = () => {
   return (
     <div className={homeContainer}>
-      <p>Hola, esto es el home</p>
+      <p>HOME</p>
     </div>
   )
 }
