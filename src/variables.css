@@ -1,0 +1,18 @@
+:root {
+    /*Fonts*/
+    --ral: "ral";
+    --pop: "pop";
+}
+
+@font-face {
+    font-family: "ral";
+    src: url('./assets/fonts/Raleway-Regular.ttf')
+}
+@font-face {
+    font-family: "pop";
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: "pop-light";
+    src: url('./assets/fonts/Poppins-Light.ttf')
+}
