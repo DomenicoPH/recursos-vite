@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Enlace from '../../components/Enlace/Enlace'
+import './Enlaces.css'
+
 import { FaPollH } from "react-icons/fa";   //  documentación
 import { FaTools } from "react-icons/fa";   //  tools
 import { SiFramework } from "react-icons/si";   //  frameworks
@@ -7,16 +9,20 @@ import { FaCss3 } from "react-icons/fa";    //  estilos
 import { FaBookBookmark } from "react-icons/fa6";   //  learning
 import { FaDatabase } from "react-icons/fa";    //  apis
 import { FaRoad } from "react-icons/fa";    //  stuff
+import { PiVideoFill } from "react-icons/pi";  //  tutoriales
+
+
 import { FaCaretDown } from "react-icons/fa";   //  flecha ABAJO
 import { FaCaretUp } from "react-icons/fa";     //  flecha ARRIBA
 import { FaBullseye } from "react-icons/fa6";   //  bullseye
 
 
-import { document, tools, frameworks, estilos, learning, stuff, apis } from '../../utils/links' // enlaces externos
+import { document, tools, frameworks, estilos, learning, stuff, apis, tutoriales } from '../../utils/links' // enlaces externos
 
 
 const enlacesContainer = 'pt-[25px] bg-slate-800 min-h-[100vh] pb-[25px]'
-const mainTitle = 'flex items-center justify-start italic font-pop bg-slate-800 text-slate-600 text-[2rem] border-[1px] border-slate-800 mx-[5vw] px-[25px] mb-[25px]'
+const mainTitleTop = 'flex items-center justify-start italic font-pop bg-slate-800 text-slate-600 text-[2rem] border-[1px] border-slate-800 mx-[5vw] px-[25px] mb-[25px]'
+const mainTitleMid = 'flex items-center justify-start italic font-pop bg-slate-800 text-slate-600 text-[2rem] border-[1px] border-slate-800 mx-[5vw] px-[25px] my-[25px]'
 const linksTitle = 'flex items-center justify-between font-pop bg-slate-900 text-slate-600 text-[2rem] border-[1px] border-slate-700 mx-[5vw] px-[25px] hover:border-b-slate-600 cursor-pointer min-h-[75px]'
 const icon = 'h-[25px] w-[25px] text-slate-600 mr-[25px]'
 const titleName = 'flex items-center'
@@ -31,6 +37,7 @@ const Enlaces = () => {
         learning: false,
         apis: false,
         stuff: false,
+        tutoriales: false,
       });
     
     const toggleSection = (section) => {
@@ -43,7 +50,8 @@ const Enlaces = () => {
   return (
     <div className={enlacesContainer}>
 
-        <div className={mainTitle}><FaBullseye className='mr-[10px]' />Enlaces</div>
+        {/* Sección 1 - Enlaces */}
+        <div className={mainTitleTop}><FaBullseye className='mr-[10px]' />Enlaces</div>
 
         <div className={linksTitle} onClick={() => toggleSection('documentacion')}>
             <div className={titleName}>
@@ -120,6 +128,21 @@ const Enlaces = () => {
             {(sectionsVisibility['stuff']) ? <FaCaretUp /> : <FaCaretDown /> }
         </div>
         {sectionsVisibility['stuff'] && stuff.map((enlace, index) => (
+            <Enlace key={index} url={enlace.url} texto={enlace.texto} />
+        ))}
+
+
+        {/* Sección 2 - Tutoriales */}
+        <div className={mainTitleMid}><FaBullseye className='mr-[10px]' />Tutoriales</div>
+
+        <div className={linksTitle} onClick={() => toggleSection('tutoriales')}>
+            <div className={titleName}>
+                <PiVideoFill className={icon} />
+                <h1>Video-tutoriales</h1>
+            </div>
+            {(sectionsVisibility['tutoriales']) ? <FaCaretUp /> : <FaCaretDown /> }
+        </div>
+        {sectionsVisibility['tutoriales'] && tutoriales.map((enlace, index) => (
             <Enlace key={index} url={enlace.url} texto={enlace.texto} />
         ))}
 

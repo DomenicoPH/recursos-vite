@@ -1,5 +1,7 @@
 /* Links externos */
 
+/* Sección 1 | tutoriales */
+
 export const document = [
     { url: 'https://www.w3schools.com/', texto: 'W3Schools.com' },
     { url: 'https://developer.mozilla.org/es/', texto: 'Mozilla Developer Network' },
@@ -89,4 +91,13 @@ export const apis = [
     { url: 'https://superheroapi.com/', texto: 'Super Hero API'},
     { url: 'https://swapi.dev/', texto: 'Star Wars API'},
     { url: 'https://pokeapi.co/', texto: 'Pokemon API'},
+];
+
+/* Sección 2 | tutoriales */
+
+export const tutoriales = [
+    { url: 'https://youtu.be/nN0DrXR893M', texto: 'Fundamentos de React'},
+    { url: 'https://www.youtube.com/live/T_j60n1zgu0?feature=share', texto: 'React desde cero (Midudev)'},
+    { url: 'https://youtu.be/fUgxxhI_bvc?si=y94UAM6AAwnlu6oQ', texto: 'Curso Typescript (Midudev)'},
+    { url: 'https://youtu.be/MPLN1ahXgcs?si=kQlmKColg__9pNAd', texto: 'Curso React (JonMircha)'},
 ]
