@@ -5,6 +5,8 @@ import { FaTools } from "react-icons/fa";   //tools
 import { SiFramework } from "react-icons/si";   //frameworks
 import { FaCss3 } from "react-icons/fa";    //estilos
 import { FaBookBookmark } from "react-icons/fa6";   //learning
+import { FaDatabase } from "react-icons/fa";    //apis
+import { FaRoad } from "react-icons/fa";    //stuff
 
 const enlacesContainer = 'pt-[25px] bg-slate-800 min-h-[100vh] pb-[25px]'
 const linksTitle = 'flex items-center font-pop bg-slate-900 text-slate-600 text-[2rem] border-[1px] border-slate-700 mx-[5vw] px-[25px]'
@@ -23,7 +25,8 @@ const document = [
     { url: 'https://webpack.js.org/', texto: 'Webpack JS' },
     { url: 'https://www.jetbrains.com/help/idea/remote-development-overview.html', texto: 'Remote Development Oveview *' },
     { url: 'https://www.bigocheatsheet.com/', texto: 'Big O' },
-    { url: 'https://www.atlassian.com/es/agile/scrum', texto: 'Scrum | Metodologías ágiles' },    
+    { url: 'https://www.atlassian.com/es/agile/scrum', texto: 'Scrum | Metodologías ágiles' },
+    { url: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf', texto: 'VSC shortcuts'}
 ];
 const tools = [
     { url: 'https://chat.openai.com/', texto: 'Chat-GPT' },
@@ -36,6 +39,11 @@ const tools = [
     { url: 'https://lenguajehtml.com/', texto: 'Lenguaje HTML' },
     { url: 'https://www.figma.com/', texto: 'Figma'},
     { url: 'https://replit.com/', texto: 'Replit' },
+    { url: 'https://convertio.co/es/', texto: 'Convertio'},
+    { url: 'https://www.pdfescape.com/', texto: 'PDF Escape'},
+    { url: 'https://onecompiler.com/', texto: 'One Compiler'},
+    { url: 'https://www.hostinger.com/', texto: 'Hostinger'},
+    { url: 'https://www.netlify.com/', texto: 'Netlify'},
 ];
 const frameworks = [
     { url: 'https://es.react.dev/', texto: 'React' },
@@ -82,6 +90,19 @@ const learning = [
     { url: 'https://laravelers.com/', texto: 'Laravelers' },
     { url: 'https://www.soyhenry.com/', texto: 'Soy Henry' },
 ];
+const stuff = [
+    { url: 'https://www.humblebundle.com/', texto: 'Humble Bundle'},
+    { url: 'https://manz.dev/', texto: 'Manz Dev'},
+    { url: 'https://midu.dev/', texto: 'Midu Dev'},
+    { url: 'https://moure.dev/', texto: 'Moure Dev'},
+];
+const apis = [
+    { url: 'https://rickandmortyapi.com/', texto: 'Rick & Morty API'},
+    { url: 'https://superheroapi.com/', texto: 'Super Hero API'},
+    { url: 'https://swapi.dev/', texto: 'Star Wars API'},
+    { url: 'https://pokeapi.co/', texto: 'Pokemon API'},
+]
+
 const Enlaces = () => {
   return (
     <div className={enlacesContainer}>
@@ -123,6 +144,22 @@ const Enlaces = () => {
             <h1>Learning</h1>
         </div>
         {learning.map((enlace, index) => (
+            <Enlace key={index} url={enlace.url} texto={enlace.texto} />
+        ))}
+
+        <div className={linksTitle}>
+            <FaDatabase className={icon} />
+            <h1>API</h1>
+        </div>
+        {apis.map((enlace, index) => (
+            <Enlace key={index} url={enlace.url} texto={enlace.texto} />
+        ))}
+
+        <div className={linksTitle}>
+            <FaRoad className={icon} />
+            <h1>Stuff</h1>
+        </div>
+        {stuff.map((enlace, index) => (
             <Enlace key={index} url={enlace.url} texto={enlace.texto} />
         ))}
 
