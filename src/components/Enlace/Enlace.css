@@ -1,0 +1,6 @@
+.linksContainerExtra {
+    transition: letter-spacing 1s ease, background-color 1s ease, color 100ms ease;
+}
+.linksContainerExtra:hover {
+    letter-spacing: 0.5rem;
+}
