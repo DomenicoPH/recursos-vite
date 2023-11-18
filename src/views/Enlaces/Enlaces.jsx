@@ -6,7 +6,7 @@ import { SiFramework } from "react-icons/si";   //frameworks
 import { FaCss3 } from "react-icons/fa";    //estilos
 import { FaBookBookmark } from "react-icons/fa6";   //learning
 
-const enlacesContainer = 'pt-[25px] bg-slate-800 min-h-[100vh]'
+const enlacesContainer = 'pt-[25px] bg-slate-800 min-h-[100vh] pb-[25px]'
 const linksTitle = 'flex items-center font-pop bg-slate-900 text-slate-600 text-[2rem] border-[1px] border-slate-700 mx-[5vw] px-[25px]'
 const icon = 'h-[25px] w-[25px] text-slate-600 mr-[25px]'
 
