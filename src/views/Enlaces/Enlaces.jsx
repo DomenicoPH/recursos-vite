@@ -17,7 +17,7 @@ import { FaCaretUp } from "react-icons/fa";     //  flecha ARRIBA
 import { FaBullseye } from "react-icons/fa6";   //  bullseye
 
 
-import { document, tools, frameworks, estilos, learning, stuff, apis, tutoriales } from '../../utils/links' // enlaces externos
+import { document, tools, frameworks, estilos, learning, stuff, apis, tutoriales, articulos } from '../../utils/links' // enlaces externos
 
 
 const enlacesContainer = 'pt-[25px] bg-slate-800 min-h-[100vh] pb-[25px]'
@@ -38,6 +38,7 @@ const Enlaces = () => {
         apis: false,
         stuff: false,
         tutoriales: false,
+        articulos: false,
       });
     
     const toggleSection = (section) => {
@@ -143,6 +144,17 @@ const Enlaces = () => {
             {(sectionsVisibility['tutoriales']) ? <FaCaretUp /> : <FaCaretDown /> }
         </div>
         {sectionsVisibility['tutoriales'] && tutoriales.map((enlace, index) => (
+            <Enlace key={index} url={enlace.url} texto={enlace.texto} />
+        ))}
+
+        <div className={linksTitle} onClick={() => toggleSection('articulos')}>
+            <div className={titleName}>
+                <PiVideoFill className={icon} />
+                <h1>Artículos</h1>
+            </div>
+            {(sectionsVisibility['articulos']) ? <FaCaretUp /> : <FaCaretDown /> }
+        </div>
+        {sectionsVisibility['articulos'] && articulos.map((enlace, index) => (
             <Enlace key={index} url={enlace.url} texto={enlace.texto} />
         ))}
 

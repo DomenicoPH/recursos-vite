@@ -1,7 +1,7 @@
 import React from 'react';
 import './Enlace.css'
 
-const linksContainer = 'linksContainerExtra linkSection flex items-center min-h-[50px] font-pop text-slate-600 hover:text-slate-200 text-[1.5rem] border-[1px] border-slate-700 mx-[5vw] px-[25px] hover:bg-slate-600 min-h-[75px]'
+const linksContainer = 'linksContainerExtra linkSection flex items-center min-h-[50px] font-pop text-slate-600 hover:text-slate-200 text-[1.5rem] border-[1px] border-slate-700 mx-[5vw] px-[25px] hover:bg-slate-600 hover:border-slate-600 min-h-[75px]'
 
 const Enlace = ({ url, texto }) => {
   return (

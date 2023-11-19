@@ -85,6 +85,7 @@ export const stuff = [
     { url: 'https://manz.dev/', texto: 'Manz Dev'},
     { url: 'https://midu.dev/', texto: 'Midu Dev'},
     { url: 'https://moure.dev/', texto: 'Moure Dev'},
+    { url: 'https://jonmircha.com/', texto: 'Jon Mircha'},
 ];
 export const apis = [
     { url: 'https://rickandmortyapi.com/', texto: 'Rick & Morty API'},
@@ -97,7 +98,18 @@ export const apis = [
 
 export const tutoriales = [
     { url: 'https://youtu.be/nN0DrXR893M', texto: 'Fundamentos de React'},
-    { url: 'https://www.youtube.com/live/T_j60n1zgu0?feature=share', texto: 'React desde cero (Midudev)'},
+    { url: 'https://www.youtube.com/live/T_j60n1zgu0?feature=share', texto: 'React desde cero | 2020 | (Midudev)'},
+    { url: 'https://youtu.be/7iobxzd_2wY?si=8ewCt0TxXlAHcz0_', texto: 'React desde cero | 2023 | (Midudev)'},
     { url: 'https://youtu.be/fUgxxhI_bvc?si=y94UAM6AAwnlu6oQ', texto: 'Curso Typescript (Midudev)'},
     { url: 'https://youtu.be/MPLN1ahXgcs?si=kQlmKColg__9pNAd', texto: 'Curso React (JonMircha)'},
+    { url: 'https://youtu.be/6lvI-gTF_X8?si=j4eVLUE9kmyuqXXu', texto: 'Tutorial | useEffect al detalle (3 mini Apps)'}
+];
+export const articulos = [
+    { url: 'https://gfourmis.co/gitflow-sin-morir-en-el-intento/', texto: 'Artículo: Git-flow'},
+    { url: 'https://docs.npmjs.com/cli/v9/configuring-npm/package-json', texto: 'Artículo: package.json'},
+    { url: 'https://codingpotions.com/estructuras-datos-javascript/', texto: 'Artículo: Estructuras de datos básicas'},
+    { url: 'https://www.oscarblancarteblog.com/2014/08/22/estructura-de-datos-arboles/', texto: 'Artículo: Estructuras de Datos - Árboles'},
+    { url: 'https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/', texto: 'Rest Api Design Best Practices'},
+    { url: 'https://www.pragma.com.co/academia/lecciones/bases-de-datos-relacionales-vs.-no-relacionales', texto: 'Artículo: BDD Relacionales VS No Relacionales'},
+    { url: 'https://www.freecodecamp.org/news/redux-and-redux-toolkit-for-beginners/', texto: 'Artículo: Redux & Redux Toolkit'},
 ]
