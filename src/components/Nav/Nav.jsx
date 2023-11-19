@@ -27,8 +27,14 @@ const Nav = () => {
                 <h3>Enlaces</h3>
             </Link>
             
-            <h3 className={navMenuItems}>Portafolio</h3>
-            <h3 className={navMenuItems}>Proyectos</h3>
+            <Link to='/Portafolio' className={navMenuItems}>
+                <h3>Portafolio</h3>
+            </Link>
+
+            <Link to='/Proyectos' className={navMenuItems}>
+                <h3>Proyectos</h3>
+            </Link>
+            
         </div>
 
     </div>
