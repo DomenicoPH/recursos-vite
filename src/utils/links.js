@@ -34,6 +34,7 @@ export const tools = [
     { url: 'https://onecompiler.com/', texto: 'One Compiler'},
     { url: 'https://www.hostinger.com/', texto: 'Hostinger'},
     { url: 'https://www.netlify.com/', texto: 'Netlify'},
+    { url: 'https://algorithm-visualizer.org/', texto: 'Algorithm Visualizer'}
 ];
 export const frameworks = [
     { url: 'https://es.react.dev/', texto: 'React' },
@@ -57,6 +58,7 @@ export const estilos = [
     { url: 'https://necolas.github.io/normalize.css/', texto: 'Normalize' },
     { url: 'https://www.browserstack.com/guide/what-are-css-and-media-query-breakpoints', texto: 'Media Query Breakpoints' },
     { url: 'https://necolas.github.io/normalize.css/', texto: 'Normalize' },
+    { url: 'https://tailwindcss.com/docs/background-color', texto: 'Tailwind color codes'}
 ];
 export const learning = [
     { url: 'https://codingpotions.com/', texto: 'Coding Potions' },
@@ -112,4 +114,11 @@ export const articulos = [
     { url: 'https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/', texto: 'Rest Api Design Best Practices'},
     { url: 'https://www.pragma.com.co/academia/lecciones/bases-de-datos-relacionales-vs.-no-relacionales', texto: 'Artículo: BDD Relacionales VS No Relacionales'},
     { url: 'https://www.freecodecamp.org/news/redux-and-redux-toolkit-for-beginners/', texto: 'Artículo: Redux & Redux Toolkit'},
+]
+
+// SOCIAL MEDIA BUTTON
+export const socialMediaLinks = [
+    { url: 'https://github.com/DomenicoPH', texto: 'Github' },
+    { url: 'https://www.linkedin.com/in/domenico-pagano-hildebrandt/', texto: 'LinkedIn' },
+    { url: 'https://www.instagram.com/gnomono/', texto: 'Instagram' }
 ]
