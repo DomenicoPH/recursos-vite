@@ -27,6 +27,7 @@ export const tools = [
     { url: 'https://boxicons.com/', texto: 'Box Icons' },
     { url: 'https://react-icons.github.io/react-icons/', texto: 'React Icons' },
     { url: 'https://lenguajehtml.com/', texto: 'Lenguaje HTML' },
+    { url: 'https://www.typescriptlang.org/', texto: 'Typescript + TS Playground'},
     { url: 'https://www.figma.com/', texto: 'Figma'},
     { url: 'https://replit.com/', texto: 'Replit' },
     { url: 'https://convertio.co/es/', texto: 'Convertio'},
