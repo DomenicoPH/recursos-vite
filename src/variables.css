@@ -2,6 +2,8 @@
     /*Fonts*/
     --ral: "ral";
     --pop: "pop";
+    --poplight: "poplight";
+    --popxlight: "popxlight";
 }
 
 @font-face {
@@ -13,6 +15,10 @@
     src: url('./assets/fonts/Poppins-Regular.ttf');
 }
 @font-face {
-    font-family: "pop-light";
+    font-family: "poplight";
     src: url('./assets/fonts/Poppins-Light.ttf')
+}
+@font-face {
+    font-family: "popxlight";
+    src: url('./assets/fonts/Poppins-ExtraLight.ttf')
 }

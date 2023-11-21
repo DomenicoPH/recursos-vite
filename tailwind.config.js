@@ -9,7 +9,8 @@ export default {
       fontFamily: {
         'ral': 'var(--ral)',
         'pop': 'var(--pop)',
-        'pop-light': 'var(--pop-light)'
+        'poplight': 'var(--poplight)',
+        'popxlight': 'var(--popxlight)'
       }
     },
   },
