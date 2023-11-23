@@ -105,7 +105,11 @@ export const tutoriales = [
     { url: 'https://youtu.be/7iobxzd_2wY?si=8ewCt0TxXlAHcz0_', texto: 'React desde cero | 2023 | (Midudev)'},
     { url: 'https://youtu.be/fUgxxhI_bvc?si=y94UAM6AAwnlu6oQ', texto: 'Curso Typescript (Midudev)'},
     { url: 'https://youtu.be/MPLN1ahXgcs?si=kQlmKColg__9pNAd', texto: 'Curso React (JonMircha)'},
-    { url: 'https://youtu.be/6lvI-gTF_X8?si=j4eVLUE9kmyuqXXu', texto: 'Tutorial | useEffect al detalle (3 mini Apps)'}
+    { url: 'https://youtu.be/6lvI-gTF_X8?si=j4eVLUE9kmyuqXXu', texto: 'Tutorial | useEffect al detalle (3 mini Apps)'},
+    { url: 'https://youtu.be/Eh-s-n_6zNQ?si=xB00TdwCFl_mHBmV', texto: 'Curso completo JavaScript | FalconMasters' },
+    { url: 'https://youtu.be/30LWjhZzg50?si=Uq7p682ujnvagD99', texto: 'Curso completo TypeScript | FreeCodeCamp' },
+    { url: 'https://youtu.be/a7ICxQblYrM?si=RZuuk3qKr9FxfHXr', texto: 'Pure CSS Content Slider | Tutorial' },
+    { url: 'https://www.youtube.com/live/dkic3MU3858?si=C3SeT1tsCF_5RXhc', texto: 'REST API con Node Express MySQL'}
 ];
 export const articulos = [
     { url: 'https://gfourmis.co/gitflow-sin-morir-en-el-intento/', texto: 'Artículo: Git-flow'},
