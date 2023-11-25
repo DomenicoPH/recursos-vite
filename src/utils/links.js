@@ -10,25 +10,20 @@ export const document = [
     { url: 'https://expressjs.com/es/', texto: 'Express JS'},
     { url: 'https://sequelize.org/docs/v6/', texto: 'Sequelize' },
     { url: 'https://www.mongodb.com/es', texto: 'MongoDB' },
+    { url: 'https://ant.design/docs/react/introduce', texto: 'Ant Design'},
     { url: 'https://www.postgresql.org/docs/current/index.html', texto: 'PostgreSQL' },
     { url: 'https://docs.npmjs.com/', texto: 'NPM JS' },
     { url: 'https://webpack.js.org/', texto: 'Webpack JS' },
     { url: 'https://www.jetbrains.com/help/idea/remote-development-overview.html', texto: 'Remote Development Oveview *' },
     { url: 'https://www.bigocheatsheet.com/', texto: 'Big O' },
     { url: 'https://www.atlassian.com/es/agile/scrum', texto: 'Scrum | Metodologías ágiles' },
-    { url: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf', texto: 'VSC shortcuts'}
+    { url: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf', texto: 'VSC shortcuts'},
+    
 ];
 export const tools = [
     { url: 'https://chat.openai.com/', texto: 'Chat-GPT' },
-    { url: 'https://jsonplaceholder.typicode.com/', texto: 'JSON Placeholder' },
-    { url: 'https://www.postman.com/', texto: 'Postman' },
-    { url: 'https://insomnia.rest/', texto: 'Insomnia' },
-    { url: 'https://fontawesome.com/', texto: 'Font Awesome' },
-    { url: 'https://boxicons.com/', texto: 'Box Icons' },
-    { url: 'https://react-icons.github.io/react-icons/', texto: 'React Icons' },
     { url: 'https://lenguajehtml.com/', texto: 'Lenguaje HTML' },
     { url: 'https://www.typescriptlang.org/', texto: 'Typescript + TS Playground'},
-    { url: 'https://www.figma.com/', texto: 'Figma'},
     { url: 'https://replit.com/', texto: 'Replit' },
     { url: 'https://convertio.co/es/', texto: 'Convertio'},
     { url: 'https://www.pdfescape.com/', texto: 'PDF Escape'},
@@ -37,8 +32,30 @@ export const tools = [
     { url: 'https://www.netlify.com/', texto: 'Netlify'},
     { url: 'https://algorithm-visualizer.org/', texto: 'Algorithm Visualizer'}
 ];
+export const toolsFrontend = [
+    { url: 'https://www.figma.com/', texto: 'Figma'},
+    { url: 'https://react-icons.github.io/react-icons/', texto: 'React Icons' },
+    { url: 'https://fontawesome.com/', texto: 'Font Awesome' },
+    { url: 'https://boxicons.com/', texto: 'Box Icons' },
+    { url: 'https://www.svgrepo.com/', texto: 'SVG Repo' },
+    { url: 'https://codepen.io/', texto: 'Codepen' },
+    { url: 'https://react-hook-form.com/', texto: 'React Hook Form' },
+    { url: 'https://m3.material.io/get-started', texto: 'Material 3' },
+    { url: 'https://swiperjs.com/element', texto: 'Swiper' },
+    { url: 'https://flowbite.com/docs/components/carousel/', texto: 'Flowbite - Carousel' },
+    { url: 'https://codepen.io/search/pens?q=carrousel&cursor=ZD0xJm89MCZwPTE=', texto: 'Codepen - Carousel' },
+    { url: 'https://tailwindcomponents.com/', texto: 'Tailwind Components' },
+    { url: 'https://www.npmjs.com/package/react-responsive-carousel?activeTab=readme', texto: 'React Responsive Carousel' },
+];
+export const toolsBackend = [
+    { url: 'https://jsonplaceholder.typicode.com/', texto: 'JSON Placeholder' },
+    { url: 'https://www.postman.com/', texto: 'Postman' },
+    { url: 'https://insomnia.rest/', texto: 'Insomnia' },
+    { url: 'https://www.tremor.so/', texto: 'Tremor' },
+];
 export const frameworks = [
     { url: 'https://es.react.dev/', texto: 'React' },
+    { url: 'https://vitejs.dev/', texto: 'Vite'},
     { url: 'https://redux.js.org/', texto: 'Redux' },
     { url: 'https://nextjs.org/', texto: 'NextJS' },
     { url: 'https://www.docker.com/', texto: 'Docker' },
@@ -56,9 +73,9 @@ export const estilos = [
     { url: 'https://copy-paste-css.com/', texto: 'Copy-Paste CSS' },
     { url: 'https://palettte.app/', texto: 'Palette' },
     { url: 'https://cssgenerator.org/', texto: 'CSS Generator' },
+    { url: 'https://getcssscan.com/css-box-shadow-examples', texto: 'Get CSS Scan' },
     { url: 'https://necolas.github.io/normalize.css/', texto: 'Normalize' },
     { url: 'https://www.browserstack.com/guide/what-are-css-and-media-query-breakpoints', texto: 'Media Query Breakpoints' },
-    { url: 'https://necolas.github.io/normalize.css/', texto: 'Normalize' },
     { url: 'https://tailwindcss.com/docs/background-color', texto: 'Tailwind color codes'}
 ];
 export const learning = [
@@ -89,6 +106,8 @@ export const stuff = [
     { url: 'https://midu.dev/', texto: 'Midu Dev'},
     { url: 'https://moure.dev/', texto: 'Moure Dev'},
     { url: 'https://jonmircha.com/', texto: 'Jon Mircha'},
+    { url: 'https://www.theodinproject.com/', texto: 'The Odin Project' },
+    { url: 'https://roadmap.sh/frontend', texto: 'Front End Roadmap' },
 ];
 export const apis = [
     { url: 'https://rickandmortyapi.com/', texto: 'Rick & Morty API'},
@@ -100,16 +119,23 @@ export const apis = [
 /* Sección 2 | tutoriales */
 
 export const tutoriales = [
-    { url: 'https://youtu.be/nN0DrXR893M', texto: 'Fundamentos de React'},
-    { url: 'https://www.youtube.com/live/T_j60n1zgu0?feature=share', texto: 'React desde cero | 2020 | (Midudev)'},
-    { url: 'https://youtu.be/7iobxzd_2wY?si=8ewCt0TxXlAHcz0_', texto: 'React desde cero | 2023 | (Midudev)'},
-    { url: 'https://youtu.be/fUgxxhI_bvc?si=y94UAM6AAwnlu6oQ', texto: 'Curso Typescript (Midudev)'},
-    { url: 'https://youtu.be/MPLN1ahXgcs?si=kQlmKColg__9pNAd', texto: 'Curso React (JonMircha)'},
+    { url: 'https://youtu.be/ivdTnPl1ND0?si=RpJnN-SI-fEsqFXi', texto: 'Javascript Básico | FreeCodeCamp' },
+    { url: 'https://youtube.com/playlist?list=PLpOqH6AE0tNg-6kaolSnySpJ0vxk3Xhoo&si=BlFAtOMhoYnEQA3x', texto: 'Fundamentos de React'},
+    { url: 'https://youtube.com/playlist?list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC&si=Cl-CgnqHUKyAhYRM', texto: 'React desde cero | 2020 | (Midudev)'},
+    { url: 'https://youtube.com/playlist?list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&si=IBvjh7uMpVH1zYZ2', texto: 'React desde cero | 2023 | (Midudev)'},
+    { url: 'https://youtu.be/3nYLTiY5skU?si=oxH8khp7duTr58xS', texto: 'HTML desde cero (Midudev)' },
+    { url: 'https://youtube.com/playlist?list=PLUofhDIg_38q7l8gV4IVCz_pjUeyD99_j&si=j5zCwt3BqIWwxOwW', texto: 'CSS desde cero (Midudev)' },
+    { url: 'https://youtu.be/Z34BF9PCfYg?si=gFgQ_CwkbQ80h-PX', texto: 'Intro a JS (Midudev)' },
+    { url: 'https://youtube.com/playlist?list=PLUofhDIg_38pNCZe9ptj72exbFjzyePxT&si=dJd-Mhb1I-TEPsYd', texto: 'Curso Typescript (Midudev)' },
+    { url: 'https://youtu.be/yB4n_K7dZV8?si=p4p6u6CwlPtEan0k', texto: 'Node JS (Midudev)' },
+    { url: 'https://youtube.com/playlist?list=PLUofhDIg_38qg8LANkItqY-0sYw7CTDui&si=W54gpmC_iz3YMaVP', texto: 'Bases de Datos (Midudev)' },
+    { url: 'https://youtube.com/playlist?list=PLV8x_i1fqBw0Kn_fBIZTa3wS_VZAqddX7&si=gPLZ1QF_WxMBAAxg', texto: 'Bootcamp FullStack (Midudev)' },
+    { url: 'https://youtu.be/MPLN1ahXgcs?si=kQlmKColg__9pNAd', texto: 'Curso React (JonMircha)' },
     { url: 'https://youtu.be/6lvI-gTF_X8?si=j4eVLUE9kmyuqXXu', texto: 'Tutorial | useEffect al detalle (3 mini Apps)'},
     { url: 'https://youtu.be/Eh-s-n_6zNQ?si=xB00TdwCFl_mHBmV', texto: 'Curso completo JavaScript | FalconMasters' },
     { url: 'https://youtu.be/30LWjhZzg50?si=Uq7p682ujnvagD99', texto: 'Curso completo TypeScript | FreeCodeCamp' },
     { url: 'https://youtu.be/a7ICxQblYrM?si=RZuuk3qKr9FxfHXr', texto: 'Pure CSS Content Slider | Tutorial' },
-    { url: 'https://www.youtube.com/live/dkic3MU3858?si=C3SeT1tsCF_5RXhc', texto: 'REST API con Node Express MySQL'}
+    { url: 'https://www.youtube.com/live/dkic3MU3858?si=C3SeT1tsCF_5RXhc', texto: 'REST API con Node Express MySQL'},
 ];
 export const articulos = [
     { url: 'https://gfourmis.co/gitflow-sin-morir-en-el-intento/', texto: 'Artículo: Git-flow'},
@@ -119,6 +145,17 @@ export const articulos = [
     { url: 'https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/', texto: 'Rest Api Design Best Practices'},
     { url: 'https://www.pragma.com.co/academia/lecciones/bases-de-datos-relacionales-vs.-no-relacionales', texto: 'Artículo: BDD Relacionales VS No Relacionales'},
     { url: 'https://www.freecodecamp.org/news/redux-and-redux-toolkit-for-beginners/', texto: 'Artículo: Redux & Redux Toolkit'},
+]
+
+export const portalesTrabajo = [
+    { url: 'https://www.turing.com/es/remote-developer-jobs', texto: 'Turing' },
+    { url: 'https://torre.ai/es?r=JSzLarg8', texto: 'Torre' },
+    { url: 'https://www.getonbrd.com/', texto: 'Getonbrd' },
+    { url: 'https://www.bumeran.com.pe/', texto: 'Bumeran' },
+    { url: 'https://www.glassdoor.com/index.htm', texto: 'Glassdoor' },
+    { url: 'https://www.workana.com/es', texto: 'Workana' },
+    { url: 'https://careers-meli.mercadolibre.com/', texto: 'Careers Mercado Libre' },
+    //{ url: '', texto: '' },
 ]
 
 // SOCIAL MEDIA BUTTON
