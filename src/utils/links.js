@@ -120,7 +120,7 @@ export const apis = [
 
 export const tutoriales = [
     { url: 'https://youtu.be/ivdTnPl1ND0?si=RpJnN-SI-fEsqFXi', texto: 'Javascript Básico | FreeCodeCamp' },
-    { url: 'https://youtu.be/koiPxFFiqJ4?si=youO0fkpbBrMpR18', texto: 'Javascript Manejo del DOM | FreeCodeCamp' },
+    { url: 'https://youtu.be/koiPxFFiqJ4?si=youO0fkpbBrMpR18', texto: 'Javascript | Manejo del DOM | FreeCodeCamp' },
     { url: 'https://youtu.be/1hpc70_OoAg?si=AAy-ZDPfO8g78eys', texto: 'Node.js + Express | FreeCodeCamp' },
     { url: 'https://youtu.be/30LWjhZzg50?si=Uq7p682ujnvagD99', texto: 'Curso completo TypeScript | FreeCodeCamp' },
     { url: 'https://youtu.be/3nYLTiY5skU?si=oxH8khp7duTr58xS', texto: 'HTML desde cero (Midudev)' },
