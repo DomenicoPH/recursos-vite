@@ -143,6 +143,7 @@ export const tutoriales = [
     { url: 'https://youtu.be/Eh-s-n_6zNQ?si=xB00TdwCFl_mHBmV', texto: 'Curso completo JavaScript | FalconMasters' },
     { url: 'https://youtu.be/a7ICxQblYrM?si=RZuuk3qKr9FxfHXr', texto: 'Pure CSS Content Slider | Tutorial' },
     { url: 'https://www.youtube.com/live/dkic3MU3858?si=C3SeT1tsCF_5RXhc', texto: 'REST API con Node Express MySQL'},
+    { url: 'https://youtu.be/9AHMihFhrzw?si=u3yHko7LbOckgOFZ', texto: 'Intro a VUE'}
 ];
 export const articulos = [
     { url: 'https://gfourmis.co/gitflow-sin-morir-en-el-intento/', texto: 'Artículo: Git-flow'},
@@ -160,6 +161,9 @@ export const portalesTrabajo = [
     { url: 'https://www.getonbrd.com/', texto: 'Getonbrd' },
     { url: 'https://www.bumeran.com.pe/', texto: 'Bumeran' },
     { url: 'https://www.glassdoor.com/index.htm', texto: 'Glassdoor' },
+    { url: 'https://remoteok.com/', texto: 'RemoteOk'},
+    { url: 'https://www.weremoto.com/', texto: 'WeRemoto'},
+    { url: 'https://www.getmanfred.com/', texto: 'GetManfred'},
     { url: 'https://www.workana.com/es', texto: 'Workana' },
     { url: 'https://careers-meli.mercadolibre.com/', texto: 'Careers Mercado Libre' },
     //{ url: '', texto: '' },
