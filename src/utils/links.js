@@ -119,6 +119,7 @@ export const apis = [
 /* Sección 2 | tutoriales */
 
 export const tutoriales = [
+    { url: 'https://youtu.be/XqFR2lqBYPs?si=HJfsLWnrABrPU77G', texto: 'HTML + CSS | FreeCodeCamp' },
     { url: 'https://youtu.be/ivdTnPl1ND0?si=RpJnN-SI-fEsqFXi', texto: 'Javascript Básico | FreeCodeCamp' },
     { url: 'https://youtu.be/koiPxFFiqJ4?si=youO0fkpbBrMpR18', texto: 'Javascript | Manejo del DOM | FreeCodeCamp' },
     { url: 'https://youtu.be/BA328RQa08M?si=ERqrTL86AMoi6t_z', texto: 'Proyectos HTML, CSS y JS | FreeCodeCamp'},
