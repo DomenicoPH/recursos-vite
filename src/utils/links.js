@@ -124,6 +124,7 @@ export const tutoriales = [
     { url: 'https://youtu.be/koiPxFFiqJ4?si=youO0fkpbBrMpR18', texto: 'Javascript | Manejo del DOM | FreeCodeCamp' },
     { url: 'https://youtu.be/BA328RQa08M?si=ERqrTL86AMoi6t_z', texto: 'Proyectos HTML, CSS y JS | FreeCodeCamp'},
     { url: 'https://youtu.be/1hpc70_OoAg?si=AAy-ZDPfO8g78eys', texto: 'Node.js + Express | FreeCodeCamp' },
+    { url: 'https://youtu.be/6Jfk8ic3KVk?si=EyzoCfXPK0BTPBHb', texto: 'React | FreeCodeCamp' },
     { url: 'https://youtu.be/30LWjhZzg50?si=Uq7p682ujnvagD99', texto: 'Curso completo TypeScript | FreeCodeCamp' },
     { url: 'https://youtu.be/3nYLTiY5skU?si=oxH8khp7duTr58xS', texto: 'HTML desde cero (Midudev)' },
     { url: 'https://youtube.com/playlist?list=PLUofhDIg_38q7l8gV4IVCz_pjUeyD99_j&si=j5zCwt3BqIWwxOwW', texto: 'CSS desde cero (Midudev)' },
