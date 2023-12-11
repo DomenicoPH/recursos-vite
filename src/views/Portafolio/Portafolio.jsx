@@ -42,6 +42,13 @@ const Portafolio = () => {
             </div>
           </a>
 
+          <a href="https://drive.google.com/file/d/1Mo9bRfaU7c6AX8MiDhg8FmgqeinsHihA/view?usp=sharing" target='blank'>
+            <div className={style.socialMedia}>
+              <RiFileUserFill className='mr-[10px]' />
+              Portfolio
+            </div>
+          </a>
+
         </div>
 
         <div className={style.section}>
