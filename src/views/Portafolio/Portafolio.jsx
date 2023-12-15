@@ -49,6 +49,13 @@ const Portafolio = () => {
             </div>
           </a>
 
+          <a href="https://www.talent.soyhenry.com/app/me" target='blank'>
+            <div className={style.socialMedia}>
+              <RiFileUserFill className='mr-[10px]' />
+              H Talent
+            </div>
+          </a>
+
         </div>
 
         <div className={style.section}>
