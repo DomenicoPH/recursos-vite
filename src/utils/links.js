@@ -140,12 +140,14 @@ export const tutoriales = [
     { url: 'https://youtube.com/playlist?list=PLpOqH6AE0tNg-6kaolSnySpJ0vxk3Xhoo&si=BlFAtOMhoYnEQA3x', texto: 'Fundamentos de React'},
     { url: 'https://youtube.com/playlist?list=PLCKuOXG0bPi26-eawizqyLOgM7j66H_4M&si=0TWDfPku2yVKipsZ', texto: 'React + Typescript | Fernando Herrera'},
     { url: 'https://youtu.be/MPLN1ahXgcs?si=kQlmKColg__9pNAd', texto: 'Curso React (JonMircha)' },
+    { url: 'https://youtu.be/6J6CM2trq8Q?si=7MgVGmuknlIXUqGp', texto: 'Introducción a Vite' },
     { url: 'https://youtu.be/LYNaJ9gZXKI?si=NRghPyMD0VKjAyzn', texto: 'Clase intensiva de Typescript' },
     { url: 'https://youtu.be/6lvI-gTF_X8?si=j4eVLUE9kmyuqXXu', texto: 'Tutorial | useEffect al detalle (3 mini Apps)'},
     { url: 'https://youtu.be/Eh-s-n_6zNQ?si=xB00TdwCFl_mHBmV', texto: 'Curso completo JavaScript | FalconMasters' },
     { url: 'https://youtu.be/a7ICxQblYrM?si=RZuuk3qKr9FxfHXr', texto: 'Pure CSS Content Slider | Tutorial' },
     { url: 'https://www.youtube.com/live/dkic3MU3858?si=C3SeT1tsCF_5RXhc', texto: 'REST API con Node Express MySQL'},
-    { url: 'https://youtu.be/9AHMihFhrzw?si=u3yHko7LbOckgOFZ', texto: 'Intro a VUE'}
+    { url: 'https://youtu.be/9AHMihFhrzw?si=u3yHko7LbOckgOFZ', texto: 'Intro a VUE' },
+    { url: 'https://youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&si=hsM_RczYcfavl3LG', texto: 'Java | desde cero' }
 ];
 export const articulos = [
     { url: 'https://gfourmis.co/gitflow-sin-morir-en-el-intento/', texto: 'Artículo: Git-flow'},
