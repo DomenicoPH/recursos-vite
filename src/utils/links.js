@@ -170,6 +170,11 @@ export const portalesTrabajo = [
     { url: 'https://www.getmanfred.com/', texto: 'GetManfred'},
     { url: 'https://www.workana.com/es', texto: 'Workana' },
     { url: 'https://careers-meli.mercadolibre.com/', texto: 'Careers Mercado Libre' },
+    { url: 'https://www.chumijobs.com/', texto: 'Chumijobs' },
+    { url: 'https://www.tecnoempleo.com/', texto: 'Tecnoempleo' },
+    { url: 'https://docs.google.com/document/d/1LcphNf2v27-AsUtFCoqAzQkmkRygHI40Ml_CY_0kfLQ/edit', texto: 'Referencias salariales' },
+    { url: 'https://sites.google.com/soyhenry.com/henry-grads-x/home?authuser=1&utm_medium=email&_hsmi=273369689&_hsenc=p2ANqtz-8xToQmkEJ6ChPfhpgfnJ8a3l0kIYIgdLNRK-iiMqnB7IOeQgR-WRKWCOPENrb_dh9yMIhK3yVvzYrt9Rxyog5BtiDczQ&utm_content=273369689&utm_source=hs_automation', texto: 'Henry X' },
+    { url: 'https://sites.google.com/soyhenry.com/henry-grads-x/henry-projects?authuser=0', texto: 'Henry Projects' }
     //{ url: '', texto: '' },
 ]
 
