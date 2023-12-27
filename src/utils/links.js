@@ -129,6 +129,8 @@ export const tutoriales = [
     { url: 'https://youtu.be/3nYLTiY5skU?si=oxH8khp7duTr58xS', texto: 'HTML desde cero (Midudev)' },
     { url: 'https://youtube.com/playlist?list=PLUofhDIg_38q7l8gV4IVCz_pjUeyD99_j&si=j5zCwt3BqIWwxOwW', texto: 'CSS desde cero (Midudev)' },
     { url: 'https://youtu.be/Z34BF9PCfYg?si=gFgQ_CwkbQ80h-PX', texto: 'Intro a JS (Midudev)' },
+    { url: 'https://youtu.be/Ql6XJpZqM9E?si=8FqnOuLTIzsgBP4j', texto: 'Programación orientada a objetos (proyecto) | JS' },
+    { url: 'https://youtube.com/playlist?list=PLSnadb41DsdKMddToNitoXrgHK7CEbUki&si=yQtkMTYceo4GOdKS', texto: 'Programación Funcional | JS' },
     { url: 'https://youtube.com/playlist?list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC&si=Cl-CgnqHUKyAhYRM', texto: 'React desde cero | 2020 | (Midudev)'},
     { url: 'https://youtube.com/playlist?list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&si=IBvjh7uMpVH1zYZ2', texto: 'React desde cero | 2023 | (Midudev)'},
     { url: 'https://youtube.com/playlist?list=PLUofhDIg_38pNCZe9ptj72exbFjzyePxT&si=dJd-Mhb1I-TEPsYd', texto: 'Curso Typescript (Midudev)' },
@@ -147,7 +149,8 @@ export const tutoriales = [
     { url: 'https://youtu.be/a7ICxQblYrM?si=RZuuk3qKr9FxfHXr', texto: 'Pure CSS Content Slider | Tutorial' },
     { url: 'https://www.youtube.com/live/dkic3MU3858?si=C3SeT1tsCF_5RXhc', texto: 'REST API con Node Express MySQL'},
     { url: 'https://youtu.be/9AHMihFhrzw?si=u3yHko7LbOckgOFZ', texto: 'Intro a VUE' },
-    { url: 'https://youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&si=hsM_RczYcfavl3LG', texto: 'Java | desde cero' }
+    { url: 'https://youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk&si=hsM_RczYcfavl3LG', texto: 'Java | desde cero' },
+    { url: 'https://youtube.com/playlist?list=PLQxX2eiEaqbwNP20GMMCjRslRq2lOLWlg&si=UgoY5Yn7JLKDr6hd', texto: 'Programación orientada a objetos | JAVA' },
 ];
 export const articulos = [
     { url: 'https://gfourmis.co/gitflow-sin-morir-en-el-intento/', texto: 'Artículo: Git-flow'},
