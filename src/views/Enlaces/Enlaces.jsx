@@ -31,6 +31,7 @@ const mainTitleMid = 'flex items-center justify-start italic font-pop bg-slate-8
 const linksTitle = 'flex items-center justify-between font-pop bg-slate-900 text-slate-600 text-[2rem] border-[1px] border-slate-700 mx-[5vw] px-[25px] hover:border-b-slate-600 cursor-pointer min-h-[75px]'
 const icon = 'h-[25px] w-[25px] text-slate-600 mr-[25px]'
 const titleName = 'flex items-center'
+const spacer = 'flex min-h-[50px]'
 
 const Enlaces = () => {
     
@@ -57,6 +58,7 @@ const Enlaces = () => {
 
   return (
     <div className={enlacesContainer}>
+        <div className={spacer}></div>
 
         {/* Sección 1 - Enlaces */}
         <div className={mainTitleTop}><FaBullseye className='mr-[10px]' />Enlaces</div>

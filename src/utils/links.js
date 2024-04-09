@@ -30,7 +30,8 @@ export const tools = [
     { url: 'https://onecompiler.com/', texto: 'One Compiler'},
     { url: 'https://www.hostinger.com/', texto: 'Hostinger'},
     { url: 'https://www.netlify.com/', texto: 'Netlify'},
-    { url: 'https://algorithm-visualizer.org/', texto: 'Algorithm Visualizer'}
+    { url: 'https://algorithm-visualizer.org/', texto: 'Algorithm Visualizer'},
+    { url: 'https://www.sortvisualizer.com/', texto: 'Sort Visualizer'},
 ];
 export const toolsFrontend = [
     { url: 'https://www.figma.com/', texto: 'Figma'},
@@ -49,6 +50,7 @@ export const toolsFrontend = [
 ];
 export const toolsBackend = [
     { url: 'https://jsonplaceholder.typicode.com/', texto: 'JSON Placeholder' },
+    { url: 'https://fakerjs.dev/', texto: 'Faker'},
     { url: 'https://www.postman.com/', texto: 'Postman' },
     { url: 'https://insomnia.rest/', texto: 'Insomnia' },
     { url: 'https://www.tremor.so/', texto: 'Tremor' },
@@ -76,7 +78,8 @@ export const estilos = [
     { url: 'https://getcssscan.com/css-box-shadow-examples', texto: 'Get CSS Scan' },
     { url: 'https://necolas.github.io/normalize.css/', texto: 'Normalize' },
     { url: 'https://www.browserstack.com/guide/what-are-css-and-media-query-breakpoints', texto: 'Media Query Breakpoints' },
-    { url: 'https://tailwindcss.com/docs/background-color', texto: 'Tailwind color codes'}
+    { url: 'https://tailwindcss.com/docs/background-color', texto: 'Tailwind color codes'},
+    { url: 'https://www.w3.org/wiki/CSS/Properties/color/keywords', texto: 'CSS color keywords'},
 ];
 export const learning = [
     { url: 'https://codingpotions.com/', texto: 'Coding Potions' },
@@ -99,6 +102,7 @@ export const learning = [
     { url: 'https://www.academlo.com/', texto: 'Academlo' },
     { url: 'https://laravelers.com/', texto: 'Laravelers' },
     { url: 'https://www.soyhenry.com/', texto: 'Soy Henry' },
+    { url: 'https://eloquent-javascript-es.vercel.app/', texto: 'Eloquent JavaScript'},
 ];
 export const stuff = [
     { url: 'https://www.humblebundle.com/', texto: 'Humble Bundle'},

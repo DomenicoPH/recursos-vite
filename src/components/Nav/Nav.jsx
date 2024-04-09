@@ -4,7 +4,7 @@ import '../../variables.css'
 import { FaHouseUser } from "react-icons/fa";
 
 /*estilos*/
-const navContainer = 'flex justify-between bg-slate-900 min-h-[50px] px-[5vw]'
+const navContainer = 'fixed flex justify-between bg-slate-900 min-h-[50px] min-w-[100vw] px-[5vw]'
 const navMenuLogo = 'font-popxlight text-slate-200 text-[1.2rem] sm:mx-1'
 const navBox = 'flex items-center'
 const navBoxLink = 'flex items-center hover:cursor-pointer px-[10px] border-x-[1px] border-slate-900 hover:border-x-[1px] hover:border-slate-800 hover:bg-slate-800 transition-border duration-300'
