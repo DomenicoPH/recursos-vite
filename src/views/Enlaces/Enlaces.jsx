@@ -26,8 +26,8 @@ import { document, tools, toolsFrontend, toolsBackend, frameworks, estilos, lear
 
 
 const enlacesContainer = 'pt-[25px] bg-slate-800 min-h-[100vh] pb-[25px]'
-const mainTitleTop = 'flex items-center justify-start italic font-pop bg-slate-800 text-slate-600 text-[2rem] border-[1px] border-slate-800 mx-[5vw] px-[25px] mb-[25px]'
-const mainTitleMid = 'flex items-center justify-start italic font-pop bg-slate-800 text-slate-600 text-[2rem] border-[1px] border-slate-800 mx-[5vw] px-[25px] my-[25px]'
+const mainTitleTop = 'flex items-center justify-start italic font-pop bg-slate-900 text-slate-600 text-[2rem] border-[1px] border-slate-800 mx-[5vw] px-[25px] py-[25px] mb-[25px] rounded-lg opacity-75'
+const mainTitleMid = 'flex items-center justify-start italic font-pop bg-slate-900 text-slate-600 text-[2rem] border-[1px] border-slate-800 mx-[5vw] px-[25px] py-[25px] my-[25px] rounded-lg opacity-75'
 const linksTitle = 'flex items-center justify-between font-pop bg-slate-900 text-slate-600 text-[2rem] border-[1px] border-slate-700 mx-[5vw] px-[25px] hover:border-b-slate-600 cursor-pointer min-h-[75px]'
 const icon = 'h-[25px] w-[25px] text-slate-600 mr-[25px]'
 const titleName = 'flex items-center'
