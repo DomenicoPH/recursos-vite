@@ -86,6 +86,7 @@ export const learning = [
     { url: 'https://supermarkupworld.com/', texto: 'Super Markup World' },
     { url: 'https://flexboxfroggy.com/#es', texto: 'FlexBox Froggy' },
     { url: 'http://www.flexboxdefense.com/', texto: 'FlexBox Defense' },
+    { url: 'https://codingfantasy.com/', texto: 'Coding Fantasy'},
     { url: 'https://flukeout.github.io/', texto: 'Fluke out' },
     { url: 'https://cssbattle.dev/', texto:'CSS Battle' },
     { url: 'https://tutorialmarkdown.com/', texto: 'Tutorial Mark Down' },
