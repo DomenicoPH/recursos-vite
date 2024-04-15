@@ -1,6 +1,6 @@
 /* Links externos */
 
-/* Sección 1 | tutoriales */
+/* Sección 1 | enlaces */
 
 export const document = [
     { url: 'https://www.w3schools.com/', texto: 'W3Schools.com' },
@@ -120,6 +120,11 @@ export const apis = [
     { url: 'https://swapi.dev/', texto: 'Star Wars API'},
     { url: 'https://pokeapi.co/', texto: 'Pokemon API'},
 ];
+// hidden -----------------------------------------------------------------------------------
+export const referencias = [
+    { url: 'https://terrahq.com/', texto: 'Terra'},
+    { url: 'https://www.flshfrm.com/', texto: 'Flashform'},
+]
 
 /* Sección 2 | tutoriales */
 
