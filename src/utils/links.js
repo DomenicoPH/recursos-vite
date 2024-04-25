@@ -124,6 +124,7 @@ export const apis = [
 export const referencias = [
     { url: 'https://terrahq.com/', texto: 'Terra'},
     { url: 'https://www.flshfrm.com/', texto: 'Flashform'},
+    { url: 'https://www.eliotbesson.com/', texto: 'Eliot Besson'},
 ]
 
 /* Sección 2 | tutoriales */
