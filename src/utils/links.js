@@ -18,6 +18,7 @@ export const document = [
     { url: 'https://www.bigocheatsheet.com/', texto: 'Big O' },
     { url: 'https://www.atlassian.com/es/agile/scrum', texto: 'Scrum | Metodologías ágiles' },
     { url: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf', texto: 'VSC shortcuts'},
+    { url: 'https://github.com/jlevy/the-art-of-command-line/blob/master/README-es.md', texto: 'The art of Command Line'},
     
 ];
 export const tools = [
@@ -32,6 +33,7 @@ export const tools = [
     { url: 'https://www.netlify.com/', texto: 'Netlify'},
     { url: 'https://algorithm-visualizer.org/', texto: 'Algorithm Visualizer'},
     { url: 'https://www.sortvisualizer.com/', texto: 'Sort Visualizer'},
+    { url: 'https://validator.w3.org/', texto: 'W3 Validator'},
 ];
 export const toolsFrontend = [
     { url: 'https://www.figma.com/', texto: 'Figma'},
@@ -61,6 +63,7 @@ export const frameworks = [
     { url: 'https://redux.js.org/', texto: 'Redux' },
     { url: 'https://nextjs.org/', texto: 'NextJS' },
     { url: 'https://www.docker.com/', texto: 'Docker' },
+    { url: 'https://www.radix-ui.com/', texto: 'Radix'},
 ];
 export const estilos = [
     { url: 'https://tailwindcss.com/', texto: 'Tailwind' },
