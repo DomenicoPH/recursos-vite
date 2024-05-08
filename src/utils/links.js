@@ -34,6 +34,7 @@ export const tools = [
     { url: 'https://algorithm-visualizer.org/', texto: 'Algorithm Visualizer'},
     { url: 'https://www.sortvisualizer.com/', texto: 'Sort Visualizer'},
     { url: 'https://validator.w3.org/', texto: 'W3 Validator'},
+    { url: 'https://caniuse.com/', texto: 'Can I use?'},
 ];
 export const toolsFrontend = [
     { url: 'https://www.figma.com/', texto: 'Figma'},
